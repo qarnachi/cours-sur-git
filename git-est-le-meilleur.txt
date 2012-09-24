@@ -2,11 +2,14 @@ Type: Formation de perfectionnement
 Sujet: git - the stupid content tracker
 Durée: 1 heure
 Langue: français
+Instructeur: Sébastien Boisvert
 
 
 == Partie 1: gestion de projets ==
 
 gestion de projet
+
+plusieurs personnes font des contributions
 
 capacité de prendre des "snapshot" de n'importe quel état
 
@@ -17,8 +20,6 @@ si personne change rien, l'état ne change pas non plus.
 
 
 == Partie 2: introduction à git ==
-
-git permet de faire cela !
 
 git a été créé par Linus Torvalds (le créateur de Linux) pour gérer le projet
 Linux.
@@ -34,14 +35,23 @@ git ne gère pas des répertoires ou des fichiers
 
 il gère du contenu
 
+chaque personne a son propre dépôt git
+
+les changements sont locaux
+
+chaque personne peut pousser ses changements vers d'autres dépôts
+
+chaque personne peut tirer des changements des autres dépôts
+
+
 
 == Partie 3: caractéristiques du produit git ==
 
-Intégrité du contenu 
-	http://git-scm.com/about/info-assurance
-
 Distribué 
 	http://git-scm.com/about/distributed
+
+Intégrité du contenu 
+	http://git-scm.com/about/info-assurance
 
 Branchements et fusions 
 	http://git-scm.com/about/branching-and-merging
@@ -54,6 +64,9 @@ Copie de travail, mise en scène, dépôt
 
 Code ouvert, logiciel libre, communauté très active
 	http://git-scm.com/about/free-and-open-source
+
+
+== Partie 4: utiliser git ==
 
 Interface graphique
 	Disponible dans: Linux, Mac, Windows
@@ -68,23 +81,37 @@ Ligne de commande
 	man git
 	http://sitaramc.github.com/2-command-line-usage/git-tasks.html
 
-== Partie 4: authentification ==
+
+
+== Partie 5: authentification ==
 
 mots de passe sont inutiles et simples
 
 clés plus complexes
 
-== Partie 5: hébergement de dépôts git ==
+
+
+== Partie 6: hébergement de dépôts git ==
 
 github.com (GitHub, Inc.)
 
 bitbucket.org (Atlassian, Inc.)
 
-== Partie 5: exemple pratique ==
 
-Les commandes de base dans l'interface graphique (init, add, status, commit,
-push, pull, log, remote)
 
+
+
+
+
+== Partie 7: exemples pratiques ==
+
+Tout se résume aux actions suivantes:
+
+- soumettre localement des changements
+- pousser des changements
+- tirer des changements
+
+1.
 
 Créer un dépôt local
 
@@ -94,9 +121,23 @@ Soumettre les changements
 
 Voir les changements
 
+
+2.
+
+Cloner ray
+
+Faire des changements bidons
+
+Essayer de pousser les changements
+
+
+3.
+
 Créer un dépôt sur bitbucket
 
-Ajouter un dépôt éloigné au dépôt local
+Cloner le cours-sur-git
+
+Ajouter un dépôt éloigné bitbucket au dépôt local
 
 Pousser les changement
 
@@ -105,3 +146,15 @@ Annuler des changements locales
 Tirer les changements
 
 
+
+
+
+== Partie 8: fonctionnement interne ==
+
+les signatures SHA1
+
+4 types d'objets: tree, commit, blob, tag
+
+2 types de références: branch, tag
+
+le répertoire .git
