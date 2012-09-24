@@ -1,0 +1,107 @@
+Type: Formation de perfectionnement
+Sujet: git - the stupid content tracker
+Durée: 1 heure
+Langue: français
+
+
+== Partie 1: gestion de projets ==
+
+gestion de projet
+
+capacité de prendre des "snapshot" de n'importe quel état
+
+un nouvel état est généré lorsque quelqu'un change quelque chose
+
+si personne change rien, l'état ne change pas non plus.
+
+
+
+== Partie 2: introduction à git ==
+
+git permet de faire cela !
+
+git a été créé par Linus Torvalds (le créateur de Linux) pour gérer le projet
+Linux.
+
+site web
+	http://git-scm.com/
+
+Maintenant, tout le monde utilise git.
+
+beaucoup utilisé aussi en dehors des projets logiciels
+
+git ne gère pas des répertoires ou des fichiers
+
+il gère du contenu
+
+
+== Partie 3: caractéristiques du produit git ==
+
+Intégrité du contenu 
+	http://git-scm.com/about/info-assurance
+
+Distribué 
+	http://git-scm.com/about/distributed
+
+Branchements et fusions 
+	http://git-scm.com/about/branching-and-merging
+
+Très petit et très rapide 
+	http://git-scm.com/about/small-and-fast
+
+Copie de travail, mise en scène, dépôt 
+	http://git-scm.com/about/staging-area
+
+Code ouvert, logiciel libre, communauté très active
+	http://git-scm.com/about/free-and-open-source
+
+Interface graphique
+	Disponible dans: Linux, Mac, Windows
+	gitx (Apple Mac OS X)
+	git gui (Linux, autres?)
+	gitk (Linux, autres?)
+
+	http://git-scm.com/downloads/guis
+
+Ligne de commande
+	Disponible dans: dans Mac, Linux, BSD, Minix, autres systèmes POSIX, Cygwin dans Windows
+	man git
+	http://sitaramc.github.com/2-command-line-usage/git-tasks.html
+
+== Partie 4: authentification ==
+
+mots de passe sont inutiles et simples
+
+clés plus complexes
+
+== Partie 5: hébergement de dépôts git ==
+
+github.com (GitHub, Inc.)
+
+bitbucket.org (Atlassian, Inc.)
+
+== Partie 5: exemple pratique ==
+
+Les commandes de base dans l'interface graphique (init, add, status, commit,
+push, pull, log, remote)
+
+
+Créer un dépôt local
+
+Faire des changement sur le dépôt local
+
+Soumettre les changements 
+
+Voir les changements
+
+Créer un dépôt sur bitbucket
+
+Ajouter un dépôt éloigné au dépôt local
+
+Pousser les changement
+
+Annuler des changements locales
+
+Tirer les changements
+
+
