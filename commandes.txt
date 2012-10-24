@@ -1,0 +1,52 @@
+
+# Partie 1: Porcelaine (30 minutes)
+
+vim ~/.gitconfig
+
+git init
+git clone
+
+git remote
+git commit
+git commit -a
+git commit -s
+git commit -as
+git pull
+git push
+git fetch
+
+git add
+git rm
+git mv
+
+git log
+git blame
+git diff
+git status
+
+git tag -a
+git branch
+git checkout
+git checkout -b
+
+git merge
+git merge --no-ff --edit --log
+
+git reset
+git reset --hard
+
+git show
+git format-patch
+patch -p1
+git send-email
+git am
+
+# Partie 2: Plomberie (30 minutes)
+
+find .git|less
+git gc
+git repack
+git show-ref
+git cat-file -t
+git cat-file -p
+
