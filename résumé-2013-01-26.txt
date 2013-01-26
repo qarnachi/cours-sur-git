@@ -1,0 +1,18 @@
+git init                # créer un dépôt
+git clone               # copier un dépôt
+
+git status              # voir l'état
+git log                 # énumérer les changements enregistrés
+
+git show <commitnumber> # afficher ce que contient un changement
+git diff                # affiche les changements
+
+git add                 # ajoute du contenu dans l'état provisoire
+git commit              # envoie du contenu dans l'index
+
+git pull copie master   # tirer les changements d'un dépôt distant
+git push origin master  # pousser les changements vers un dépôt distant
+
+git merge               # fusionner des branches
+git fetch copie master  # télécharger des changements
+
