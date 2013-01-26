@@ -1,3 +1,5 @@
+git config		# configurer nom et courriel
+
 git init                # créer un dépôt
 git clone               # copier un dépôt
 
