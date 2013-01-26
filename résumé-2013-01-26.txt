@@ -16,3 +16,4 @@ git push origin master  # pousser les changements vers un dépôt distant
 git merge               # fusionner des branches
 git fetch copie master  # télécharger des changements
 
+git reset		# restaurer le dépôt à un point dans le temps
